@@ -97,7 +97,6 @@ button i {
   right: 0;
   bottom: 0;
   background-color: #bd4de5;
-
   transition: 0.4s;
   border-radius: 34px;
 }
@@ -120,6 +119,12 @@ input:checked + .slider {
 
 input:checked + .slider:before {
   transform: translateX(80px);
+}
+/* Temperature Display */
+.temperature-display {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 10px 0;
 }
 
 @media screen and (max-width: 600px) {
