@@ -126,6 +126,12 @@ input:checked + .slider:before {
   font-weight: bold;
   margin: 10px 0;
 }
+/* Song Name Display */
+.song-name {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+}
 
 @media screen and (max-width: 600px) {
   main {
